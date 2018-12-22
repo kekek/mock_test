@@ -2,6 +2,7 @@ package cmd
 
 import (
 	"fmt"
+
 	"github.com/sgoertzen/html2text"
 )
 
@@ -15,5 +16,18 @@ var originContent = `
 `
 
 func main() {
+	x, err := html2text.Textify(originContent)
+	if err != nil {
+		fmt.Println("err")
+	}
+
+	fmt.Println(x)
+
+	testDef()
+
 	fmt.Println("test")
+}
+
+func testDef() {
+	fmt.Println("def")
 }
