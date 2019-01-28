@@ -2,12 +2,12 @@ package db
 
 import (
 	"testing"
-
-	"GoExample/GoMock/mock"
-
 	"fmt"
 
 	"github.com/golang/mock/gomock"
+
+
+	mock_db "github.com/kekek/mock_test/mock"
 )
 
 func TestMySQL_CreateData(t *testing.T) {
