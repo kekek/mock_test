@@ -1,0 +1,4 @@
+github.com/golang/mock v1.2.0 h1:28o5sBqPkBsMGnC6b4MvE2TzSr5/AT4c/1fLqVGIwlk=
+github.com/golang/mock v1.2.0/go.mod h1:oTYuIxOrZwtPieC+H1uAHpcLFnEyAGVDL/k47Jfbm0A=
+github.com/sgoertzen/html2text v0.0.0-20150521194539-491ddf8e5d83 h1:y5njy0dYeUqGONywMQ2UDrYDEeCmGc8osMJRN6VapEM=
+github.com/sgoertzen/html2text v0.0.0-20150521194539-491ddf8e5d83/go.mod h1:MOkL0grur+nClJcI/W6OHoynLvTFF4PxBRHcCkGhHSs=
